@@ -24,6 +24,8 @@ uvicorn api.main:app --reload
 docker build -t ml-api .
 docker run -p 8000:8000 ml-api
 ```
+Or Run in Local server 
+on main.py folder command uvicorn main:app --reload  load on browser http://127.0.0.1:8000/docs 
 
 ## Requirements
 ```bash
